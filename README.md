@@ -1,0 +1,3 @@
+Simple but smart apllication for everone who wants to enhance aritmetic skills.
+
+Development in progress...
