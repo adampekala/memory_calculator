@@ -1,0 +1,33 @@
+{
+  "name": "memory_calculator",
+  "version": "1.0.0",
+  "description": "mathematic application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "compileSCSS": "sass style.scss style.css --watch",
+    "compileTS": "sass style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adampekala/memory_calculator.git"
+  },
+  "keywords": [
+    "aritmethic",
+    "addition",
+    "substraction",
+    "multiplication"
+  ],
+  "author": "Adam Pękala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adampekala/memory_calculator/issues"
+  },
+  "homepage": "https://github.com/adampekala/memory_calculator#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.89.2",
+    "typescript": "^5.8.3"
+  }
+}

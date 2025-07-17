@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Memory calculator</title>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+  </head>
+  <body>
+    <div class="calculator_container">
+      <nav class="navbar">
+        <span class="navbar_icon-left">x</span>
+        <div class="navbar-name">
+          <span class="navbar-name-top">memory</span>
+          <span class="navbar-name-bottom"> caluclator</span>
+        </div>
+        <span class="navbar_icon-right">x</span>
+      </nav>
+      <div class="decoration_circle-top"></div>
+      <div class="score_container">
+        <div
+          class="score_title"
+          id="score_title"
+        >
+          score
+        </div>
+        <div
+          class="score"
+          id="score"
+        >
+          -------
+        </div>
+      </div>
+      <div class="horizontal_line horizontal_line-top"></div>
+
+      <div class="screen">
+        <div
+          class="screen_number screen_number-left"
+          id="left_number"
+        >
+          --
+        </div>
+        <div
+          class="screen_operation_sign"
+          id="screen_operation_sign"
+        >
+          x
+        </div>
+        <div
+          class="screen_number screen_number-right"
+          id="right_number"
+        >
+          --
+        </div>
+      </div>
+
+      <div class="decoration_circle-center"></div>
+
+      <div
+        class="button_container"
+        id="button_container"
+      >
+        <div
+          class="button_button"
+          id="main_button"
+        >
+          <div class="button_dot_container">
+            <div class="button_dot_container-shadow">
+              <div
+                class="button_dot button_dot-left"
+                id="button_dot-left"
+              ></div>
+            </div>
+          </div>
+          <div class="button_instruction">
+            <div class="button_instruction-line">|</div>
+            <div
+              class="button_instruction-text"
+              id="button_instruction"
+            >
+              start
+            </div>
+            <div class="button_instruction-line">|</div>
+          </div>
+          <div class="button_dot_container">
+            <div class="button_dot_container-shadow">
+              <div
+                class="button_dot button_dot-right"
+                id="button_dot-right"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="option_button_container">
+        <div class="option_button_container-shadow">
+          <div
+            class="option_button"
+            id="option_button"
+          ></div>
+        </div>
+      </div>
+
+      <div class="decoration_circle"></div>
+      <div class="horizontal_line horizontal_line-bottom"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
